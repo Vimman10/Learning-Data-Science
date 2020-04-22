@@ -1,0 +1,32 @@
+------------------JupyterThemes------------------------------------------------------------------
+
+To get some Jupyter Themes use below Commands
+
+> To will install themes for you
+  Command : 
+  pip install jupyterthemes
+
+> To will list down all the available themes
+  Command : 
+  jp -l
+
+> To apply monokai theme to the jupyter notebook, you can change the theme by same command, just replace theme name
+  Command : 
+  jp -t "ThemeName"
+  Ex - jp -t monokai
+
+> To go back to the original jupyter theme
+  Command : 
+  jp -r
+
+> With some themse the Header and Toolbar goes invisible, the below command will make them visible
+  Command : 
+  jt -t monkai -T -N -kl
+
+  Params:-
+  Toolbar Visible -T
+  Name & Logo Visible -N
+  Kernel Logo Visible -kl
+  
+----------------------------------------------------------------------------------------------------
+
